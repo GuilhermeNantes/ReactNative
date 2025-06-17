@@ -3,7 +3,7 @@ import { Foundation, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-
 
 export default function TabsLayout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs screenOptions={{ headerShown: false}}>
       <Tabs.Screen 
         name="index"
         options={{
